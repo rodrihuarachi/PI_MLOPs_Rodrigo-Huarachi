@@ -48,7 +48,7 @@ En este proceso se realizo la ingesta de los datos, ya que para poder trabajarlo
 - Transformaciones de tipos de dato.
 - Etc.
 
-Para visualizar los pasos que implemente para el ETL, puede seguir este enlace: [ETL](/Notebooks/ETL.ipynb)
+> Para visualizar los pasos que implemente para el ETL, puede seguir este enlace: [ETL](/Notebooks/ETL.ipynb)
 
 ## **Feature Engineering**
 ![Pandas](https://img.shields.io/badge/-Pandas-333333?style=flat&logo=pandas)
@@ -67,7 +67,7 @@ En este paso, aplicamos un análisis de sentimiento con `NLP` al dataset de `Rev
 Esta nueva columna nos facilitara el trabajo para la creación de los *Modelos de Machine Learning*. <br>
 Además en este apartado, creamos nuevos datasets para las funciónes solicitadas y para el `Sistema de Recomendación` y asi poder optimizar los recursos a la hora de ejecutar la API.
 
-Para visualizar los pasos que se implemento en este proceso, puede seguir este enlace: [Feature Engineering](/Notebooks/Feature%20Engineering.ipynb)
+> Para visualizar los pasos que se implemento en este proceso, puede seguir este enlace: [Feature Engineering](/Notebooks/Feature%20Engineering.ipynb)
 
 ## **Exploratory Data Analysis (EDA)**
 ![WordCloud](https://img.shields.io/badge/WordCloud-333333?style=flat&logo=WordCloud)
@@ -95,7 +95,7 @@ En este dataset analizamos:
 - Top 5 items mas votados.
 - Item más popular.
 
-Para visualizar los pasos que se implemento en este proceso, puede seguir este enlace: [EDA](/Notebooks/EDA.ipynb)
+> Para visualizar los pasos que se implemento en este proceso, puede seguir este enlace: [EDA](/Notebooks/EDA.ipynb)
 
 ## **Modelo de Machine Learning**
 ![VSCode](https://img.shields.io/badge/-VSCode-333333?style=flat&logo=visual-studio-code)
@@ -124,7 +124,7 @@ Para el desarrollo del Sistema de recomendación, usamos el dataset creado en la
 
 Este nuevo dataset nos brinda informacion relevante para poder clasificar el contenido en base a los TAGs y asi poder calcular la distancia de coseno como similitud, y generar una matriz.
 
-Para visualizar los pasos que se implemento en este proceso, puede seguir este enlace: [Sistema de Recomendación](/Notebooks/Sistema%20de%20Recomendacion.ipynb)
+> Para visualizar los pasos que se implemento en este proceso, puede seguir este enlace: [Sistema de Recomendación](/Notebooks/Sistema%20de%20Recomendacion.ipynb)
 
 ## **Desarrollo de la API**
 
@@ -149,7 +149,7 @@ Esta función toma un parámetro que es el año del posteo de la reseña y devue
 - **recomendacion_juego**: <p>
 Esta función recibe como parámetro el nombre de un juego y devuelve una lista con 5 juegos recomendados similares al ingresado.
 
-Para poder interactuar con las funciones, puede ingresar a este link: [Deploy en Render](https://deploy-pi-rodrigo-huarachi.onrender.com/)
+> Para poder interactuar con las funciones, puede ingresar a este link: [Deploy en Render](https://deploy-pi-rodrigo-huarachi.onrender.com/)
 
 
 
